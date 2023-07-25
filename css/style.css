@@ -1,0 +1,176 @@
+body{
+  background-color: #FCE2DB;
+  color: #0C317A;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* top container */
+
+
+h1{
+  color: #FF3434;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 60px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+h1:hover {
+  color: #0C317A;
+}
+
+.heart-img {
+  position: absolute;
+  width: 8%;
+  top: 3%;
+  right: 20%;
+  padding-bottom: 25px;
+}
+
+.horizontal-line {
+  border: dotted 5px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  color: #FF3434;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.top-container {
+  background-color: #FCE2DB;
+  margin: auto;
+}
+
+/*affirmation display*/
+
+h4 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40px;
+}
+
+#affirmation-display {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding: 50px 10px;
+}
+
+.jumbotron {
+  background-color: #FF9393;
+  border-style: outset;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+/* button to refresh */
+
+.btn {
+  background-color: #FF3434;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: #FCE2DB;
+}
+
+.new-affirmation {
+  align-items: center;
+  color:#0C317A;
+  margin: auto;
+  text-align: center;
+}
+
+/*bottom*/
+
+.bottom-container {
+  background-color: #0C317A;
+  height: 300px;
+}
+
+.bottom-text {
+  color: #FF9393;
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+.contact-links {
+  color: #FF9393;
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+
+}
+
+/*screen responsiveness */
+
+@media screen and (min-width:900px){
+
+  h1 {
+    font-size: 80px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+
+  #affirmation-display {
+    font-size: 40px;
+  }
+
+  .heart-img {
+    position: absolute;
+    right: 8%;
+    top: 1.5%;
+    width: 11%;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:899px){
+
+  h1 {
+    font-size: 55px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+
+  #affirmation-display {
+    font-size: 30px;
+  }
+
+  .heart-img {
+    position: absolute;
+    right: 6.5%;
+    top:5%;
+    width: 10%;
+  }
+}
+
+
+@media screen and (max-width:599px) {
+  h1 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+
+  #affirmation-display {
+    font-size: 20px;
+  }
+
+  .heart-img {
+    position: absolute;
+    top:5%;
+    right: 5%;
+    width: 8%;
+  }
+}
